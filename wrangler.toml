@@ -1,0 +1,11 @@
+# Cloudflare Workers配置文件
+name = "github-proxy"
+type = "javascript"
+account_id = "" # 部署时填写你的Cloudflare账户ID
+workers_dev = true
+compatibility_date = "2023-05-18"
+
+[build]
+command = ""
+[build.upload]
+format = "service-worker"
